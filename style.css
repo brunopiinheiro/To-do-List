@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(187, 218, 184);
+}
+.todo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+    background-color: greenyellow;
+}
+
+.container-pai {
+    text-align: center;
+    height: 3vh;
+}
+
+#textoDigitado {
+    height: 3vh;
+}
+
+#botaoAcionador {
+    height: 25px;
+}
+
+.lista-tarefa {
+    display: flex;
+    border-style: inset;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    max-width: 50vw;
+    box-sizing: border-box;
+    background-color: rgb(197, 211, 205);
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    max-width: 100vw;
+    max-height: 100vw;
+}
+
+.deleta {
+    position: fixed;
+    margin: 0px 45%;
+}
